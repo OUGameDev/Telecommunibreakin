@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 823f89a68e6a03d4a8b033957cd2f260
+timeCreated: 1507430184
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: EastLobbyWall_Walls
+    100002: Floor
+    100004: //RootNode
+    100006: Walls
+    100008: Walls_ArtWall1
+    100010: Walls_ArtWall2
+    100012: Walls_ArtWall3
+    100014: Walls_ArtWall4
+    100016: Walls_EastGardenWall
+    100018: Walls_EastOuterWall
+    100020: Walls_NorthGardenWall
+    100022: Walls_NorthGardenWall1
+    100024: Walls_NorthGardenWall2
+    100026: Walls_NorthGiftWall
+    100028: Walls_NorthOfficeWall
+    100030: Walls_NorthOuterWall
+    100032: Walls_StartingPlatform
+    100034: Walls_WestGardenWall
+    100036: Walls_WestGardenWall1
+    100038: Walls_WestOuterWall
+    400000: EastLobbyWall_Walls
+    400002: Floor
+    400004: //RootNode
+    400006: Walls
+    400008: Walls_ArtWall1
+    400010: Walls_ArtWall2
+    400012: Walls_ArtWall3
+    400014: Walls_ArtWall4
+    400016: Walls_EastGardenWall
+    400018: Walls_EastOuterWall
+    400020: Walls_NorthGardenWall
+    400022: Walls_NorthGardenWall1
+    400024: Walls_NorthGardenWall2
+    400026: Walls_NorthGiftWall
+    400028: Walls_NorthOfficeWall
+    400030: Walls_NorthOuterWall
+    400032: Walls_StartingPlatform
+    400034: Walls_WestGardenWall
+    400036: Walls_WestGardenWall1
+    400038: Walls_WestOuterWall
+    2300000: EastLobbyWall_Walls
+    2300002: Floor
+    2300004: Walls
+    2300006: Walls_ArtWall1
+    2300008: Walls_ArtWall2
+    2300010: Walls_ArtWall3
+    2300012: Walls_ArtWall4
+    2300014: Walls_EastGardenWall
+    2300016: Walls_EastOuterWall
+    2300018: Walls_NorthGardenWall
+    2300020: Walls_NorthGardenWall1
+    2300022: Walls_NorthGardenWall2
+    2300024: Walls_NorthGiftWall
+    2300026: Walls_NorthOfficeWall
+    2300028: Walls_NorthOuterWall
+    2300030: Walls_StartingPlatform
+    2300032: Walls_WestGardenWall
+    2300034: Walls_WestGardenWall1
+    2300036: Walls_WestOuterWall
+    3300000: EastLobbyWall_Walls
+    3300002: Floor
+    3300004: Walls
+    3300006: Walls_ArtWall1
+    3300008: Walls_ArtWall2
+    3300010: Walls_ArtWall3
+    3300012: Walls_ArtWall4
+    3300014: Walls_EastGardenWall
+    3300016: Walls_EastOuterWall
+    3300018: Walls_NorthGardenWall
+    3300020: Walls_NorthGardenWall1
+    3300022: Walls_NorthGardenWall2
+    3300024: Walls_NorthGiftWall
+    3300026: Walls_NorthOfficeWall
+    3300028: Walls_NorthOuterWall
+    3300030: Walls_StartingPlatform
+    3300032: Walls_WestGardenWall
+    3300034: Walls_WestGardenWall1
+    3300036: Walls_WestOuterWall
+    4300000: EastLobbyWall_Walls
+    4300002: Floor
+    4300004: Walls
+    4300006: Walls_ArtWall1
+    4300008: Walls_ArtWall2
+    4300010: Walls_ArtWall3
+    4300012: Walls_ArtWall4
+    4300014: Walls_EastGardenWall
+    4300016: Walls_EastOuterWall
+    4300018: Walls_NorthGardenWall
+    4300020: Walls_NorthGardenWall1
+    4300022: Walls_NorthGardenWall2
+    4300024: Walls_NorthGiftWall
+    4300026: Walls_NorthOfficeWall
+    4300028: Walls_NorthOuterWall
+    4300030: Walls_StartingPlatform
+    4300032: Walls_WestGardenWall
+    4300034: Walls_WestGardenWall1
+    4300036: Walls_WestOuterWall
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

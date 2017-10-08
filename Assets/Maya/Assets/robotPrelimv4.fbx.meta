@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 85daae6ea30e81b478ffb0472224a6f3
+timeCreated: 1507441907
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Attena
+    100002: AttenaBall
+    100004: AttenaRod
+    100006: Cannon
+    100008: CannonBase
+    100010: CD
+    100012: CdDrive
+    100014: CdDriveOutside
+    100016: indicator
+    100018: PowerButton
+    100020: RoboBase
+    100022: RoboBod
+    100024: RoboStem
+    100026: //RootNode
+    100028: RoboWheel1
+    100030: RoboWheel2
+    100032: RoboWheel3
+    100034: RoboWheel4
+    100036: Wheels
+    400000: Attena
+    400002: AttenaBall
+    400004: AttenaRod
+    400006: Cannon
+    400008: CannonBase
+    400010: CD
+    400012: CdDrive
+    400014: CdDriveOutside
+    400016: indicator
+    400018: PowerButton
+    400020: RoboBase
+    400022: RoboBod
+    400024: RoboStem
+    400026: //RootNode
+    400028: RoboWheel1
+    400030: RoboWheel2
+    400032: RoboWheel3
+    400034: RoboWheel4
+    400036: Wheels
+    2300000: AttenaBall
+    2300002: AttenaRod
+    2300004: CannonBase
+    2300006: CdDrive
+    2300008: CdDriveOutside
+    2300010: indicator
+    2300012: PowerButton
+    2300014: RoboBase
+    2300016: RoboBod
+    2300018: RoboStem
+    2300020: RoboWheel1
+    2300022: RoboWheel2
+    2300024: RoboWheel3
+    2300026: RoboWheel4
+    3300000: AttenaBall
+    3300002: AttenaRod
+    3300004: CannonBase
+    3300006: CdDrive
+    3300008: CdDriveOutside
+    3300010: indicator
+    3300012: PowerButton
+    3300014: RoboBase
+    3300016: RoboBod
+    3300018: RoboStem
+    3300020: RoboWheel1
+    3300022: RoboWheel2
+    3300024: RoboWheel3
+    3300026: RoboWheel4
+    4300000: RoboStem
+    4300002: RoboBod
+    4300004: PowerButton
+    4300006: RoboWheel2
+    4300008: RoboWheel3
+    4300010: RoboWheel4
+    4300012: RoboWheel1
+    4300014: RoboBase
+    4300016: CdDriveOutside
+    4300018: CdDrive
+    4300020: AttenaBall
+    4300022: AttenaRod
+    4300024: CannonBase
+    4300026: indicator
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
