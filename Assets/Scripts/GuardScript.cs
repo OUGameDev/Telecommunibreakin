@@ -18,6 +18,8 @@ public class GuardScript : MonoBehaviour {
 
     private bool isOn = true;
 
+    private bool disabled = false;
+
 	// Use this for initialization
 	void Start () {
         /*
@@ -29,20 +31,20 @@ public class GuardScript : MonoBehaviour {
         lastShot = Time.time;
 	}
 
-    void Shoot(Vector3 dir)
+    void Shoot(Vector3 dirPos)
     {
         if (Time.time - lastShot > 0.8f)
         {
             GameObject bullet = Instantiate(bulletPrefab);
-            bullet.transform.position = this.transform.position + this.transform.forward * this.transform.lossyScale.x / 1.4f;
-            bullet.GetComponent<Rigidbody>().velocity = dir.normalized * 20f;
+            bullet.transform.position = this.transform.position + this.transform.forward * this.transform.lossyScale.x;
+            bullet.GetComponent<Rigidbody>().velocity = (playerView.transform.position - bullet.transform.position).normalized * 20f;
             lastShot = Time.time;
         }
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (!isOn)
+        if (!isOn || disabled)
         {
             return;
         }
@@ -69,7 +71,7 @@ public class GuardScript : MonoBehaviour {
             {
                 //set red if detected
                 coloryThingy.GetComponent<Renderer>().material.color = new Color(0.8f, 0.1f, 0.0f);
-                Shoot(dispVector);
+                Shoot(playerView.transform.position);
                 return;
             }
         }
@@ -83,5 +85,10 @@ public class GuardScript : MonoBehaviour {
     {
         Debug.Log(x);
         isOn = x < 50;
+    }
+
+    public void setDisabled(bool x)
+    {
+        disabled = x;
     }
 }
