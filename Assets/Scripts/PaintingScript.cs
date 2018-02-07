@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using VRTK;
 
 [RequireComponent(typeof(VRTK_InteractableObject))]
@@ -13,6 +14,14 @@ public class PaintingScript : MonoBehaviour
     {
         GetComponent<VRTK_InteractableObject>().InteractableObjectUngrabbed += EMPScript_InteractableObjectUngrabbed;
         body = GetComponent<Rigidbody>();
+    }
+
+    private void FixedUpdate()
+    {
+        if (transform.position.x < 0)
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        }
     }
 
     private void EMPScript_InteractableObjectUngrabbed(object sender, InteractableObjectEventArgs e)
