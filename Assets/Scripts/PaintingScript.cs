@@ -16,14 +16,6 @@ public class PaintingScript : MonoBehaviour
         body = GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
-    {
-        if (transform.position.x < 0)
-        {
-            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
-        }
-    }
-
     private void EMPScript_InteractableObjectUngrabbed(object sender, InteractableObjectEventArgs e)
     {
         body.constraints = RigidbodyConstraints.None;
