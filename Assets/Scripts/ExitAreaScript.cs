@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class ExitAreaScript : MonoBehaviour {
 
 
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.name == "pictureFrameTemplate")
+        if (other.name == "pictureFrameTemplate")
         {
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
     }
+
 }
